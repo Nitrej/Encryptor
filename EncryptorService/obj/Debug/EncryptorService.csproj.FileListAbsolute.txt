@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\EncryptorService\bin\Debug\EncryptorService.exe.config
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\EncryptorService\bin\Debug\EncryptorService.exe
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\EncryptorService\bin\Debug\EncryptorService.pdb
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\EncryptorService\bin\Debug\BibliotekaSzyfrowania.dll
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\EncryptorService\bin\Debug\BibliotekaSzyfrowania.pdb
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\EncryptorService\bin\Debug\BibliotekaSzyfrowania.dll.config
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\EncryptorService\obj\Debug\EncryptorService.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\EncryptorService\obj\Debug\EncryptorService.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\EncryptorService\obj\Debug\EncryptorService.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\EncryptorService\obj\Debug\EncryptorService.csproj.CopyComplete
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\EncryptorService\obj\Debug\EncryptorService.exe
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\EncryptorService\obj\Debug\EncryptorService.pdb
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\EncryptorService\obj\Debug\EncryptorService.EncryptorService.resources
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\EncryptorService\obj\Debug\EncryptorService.csproj.GenerateResource.cache
