@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\BibliotekaSzyfrowania\bin\Release\BibliotekaSzyfrowania.dll.config
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\BibliotekaSzyfrowania\bin\Release\BibliotekaSzyfrowania.dll
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\BibliotekaSzyfrowania\bin\Release\BibliotekaSzyfrowania.pdb
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\BibliotekaSzyfrowania\obj\Release\BibliotekaSzyfrowania.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\BibliotekaSzyfrowania\obj\Release\BibliotekaSzyfrowania.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\BibliotekaSzyfrowania\obj\Release\BibliotekaSzyfrowania.dll
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\BibliotekaSzyfrowania\obj\Release\BibliotekaSzyfrowania.pdb
