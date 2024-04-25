@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotekaSzyfrowania", "BibliotekaSzyfrowania\BibliotekaSzyfrowania.csproj", "{FD9DB3FB-C722-4611-85EE-57B5E95F128A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptorService", "EncryptorService\EncryptorService.csproj", "{3AF088A2-906A-4FD5-94E8-E0DB98A329BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlientEncryptor", "KlientEncryptor\KlientEncryptor.csproj", "{A883A365-62EA-4FC1-AC69-8AD04837BE76}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FD9DB3FB-C722-4611-85EE-57B5E95F128A} = {FD9DB3FB-C722-4611-85EE-57B5E95F128A}
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Encryptor", "Encryptor\Encryptor.vdproj", "{1950B151-1852-4BD4-9935-3F80395FC3DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotekaSzyfrowaniaTest", "BibliotekaSzyfrowaniaTest\BibliotekaSzyfrowaniaTest.csproj", "{829978F5-B29B-4237-A0D2-1BC837D3FCC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptorServiceTest", "EncryptorServiceTest\EncryptorServiceTest.csproj", "{9F37EAF6-88A9-4A03-BBC6-8A6C9BC25A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlientEncryptorTest", "KlientEncryptorTest\KlientEncryptorTest.csproj", "{904C2D66-C830-4694-AC2C-05B75C64B097}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD9DB3FB-C722-4611-85EE-57B5E95F128A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9DB3FB-C722-4611-85EE-57B5E95F128A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9DB3FB-C722-4611-85EE-57B5E95F128A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9DB3FB-C722-4611-85EE-57B5E95F128A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF088A2-906A-4FD5-94E8-E0DB98A329BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF088A2-906A-4FD5-94E8-E0DB98A329BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF088A2-906A-4FD5-94E8-E0DB98A329BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF088A2-906A-4FD5-94E8-E0DB98A329BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A883A365-62EA-4FC1-AC69-8AD04837BE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A883A365-62EA-4FC1-AC69-8AD04837BE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A883A365-62EA-4FC1-AC69-8AD04837BE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A883A365-62EA-4FC1-AC69-8AD04837BE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1950B151-1852-4BD4-9935-3F80395FC3DA}.Debug|Any CPU.ActiveCfg = Debug
+		{1950B151-1852-4BD4-9935-3F80395FC3DA}.Release|Any CPU.ActiveCfg = Release
+		{829978F5-B29B-4237-A0D2-1BC837D3FCC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829978F5-B29B-4237-A0D2-1BC837D3FCC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829978F5-B29B-4237-A0D2-1BC837D3FCC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829978F5-B29B-4237-A0D2-1BC837D3FCC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F37EAF6-88A9-4A03-BBC6-8A6C9BC25A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F37EAF6-88A9-4A03-BBC6-8A6C9BC25A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F37EAF6-88A9-4A03-BBC6-8A6C9BC25A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F37EAF6-88A9-4A03-BBC6-8A6C9BC25A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{904C2D66-C830-4694-AC2C-05B75C64B097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{904C2D66-C830-4694-AC2C-05B75C64B097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{904C2D66-C830-4694-AC2C-05B75C64B097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{904C2D66-C830-4694-AC2C-05B75C64B097}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D26E063-0B9C-42F0-ABBD-B209936734CC}
+	EndGlobalSection
+EndGlobal
