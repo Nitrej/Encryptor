@@ -1,0 +1,16 @@
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\KlientEncryptor\bin\Debug\KlientEncryptor.exe.config
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\KlientEncryptor\bin\Debug\KlientEncryptor.exe
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\KlientEncryptor\bin\Debug\KlientEncryptor.pdb
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\KlientEncryptor\obj\Debug\KlientEncryptor.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\KlientEncryptor\obj\Debug\KlientEncryptor.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\KlientEncryptor\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\KlientEncryptor\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\KlientEncryptor\obj\Debug\KlientEncryptor_MarkupCompile.cache
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\KlientEncryptor\obj\Debug\KlientEncryptor_MarkupCompile.lref
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\KlientEncryptor\obj\Debug\MainWindow.baml
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\KlientEncryptor\obj\Debug\KlientEncryptor.g.resources
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\KlientEncryptor\obj\Debug\KlientEncryptor.Properties.Resources.resources
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\KlientEncryptor\obj\Debug\KlientEncryptor.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\KlientEncryptor\obj\Debug\KlientEncryptor.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\KlientEncryptor\obj\Debug\KlientEncryptor.exe
+C:\Users\Admin\Desktop\bialkoski\AplikacjaSzyfrujaca\KlientEncryptor\obj\Debug\KlientEncryptor.pdb

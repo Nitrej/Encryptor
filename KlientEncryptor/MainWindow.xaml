@@ -1,0 +1,60 @@
+﻿<Window x:Class="KlientEncryptor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KlientEncryptor"
+        mc:Ignorable="d"
+        Title="Encryptor" Height="520" Width="800" ResizeMode="NoResize">
+    <Grid Margin="0,0,0,0" Background="Azure">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="398px"></ColumnDefinition>
+            <ColumnDefinition Width="4px" />
+            <ColumnDefinition Width="398px"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Column="0" Foreground="White" FontWeight="Bold" BorderThickness="0px" Padding="3px" Background="CornflowerBlue" Content="Zaszyfruj" HorizontalAlignment="Left" Margin="59,434,0,0" VerticalAlignment="Top" Click="ZaszyfrujText" Width="130">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <TextBox Grid.Column="0" Name="plainText"  HorizontalAlignment="Left" Height="103" Margin="59,149,0,0" HorizontalScrollBarVisibility="Auto" TextWrapping="Wrap" Text="Podaj tekst do zaszyfrowania/odszyfrowania." VerticalAlignment="Top" Width="280"/>
+        <PasswordBox Grid.Column="0" Name="passwordBoxText" HorizontalAlignment="Left" Height="22" Margin="59,72,0,0" VerticalAlignment="Top" Width="280"/>
+        <TextBox IsReadOnly="True" Grid.Column="0" Name="resultText" HorizontalAlignment="Left" Height="122" Margin="59,287,0,0" TextWrapping="Wrap" HorizontalScrollBarVisibility="Auto" VerticalAlignment="Top" Width="280" />
+        <Button Grid.Column="0" Foreground="White" FontWeight="Bold" BorderThickness="0px" Padding="3px" Background="CornflowerBlue" Content="Odszyfruj" HorizontalAlignment="Left" Margin="209,434,0,0" VerticalAlignment="Top" Click="OdszyfrujText" Width="130">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Label Grid.Column="0" FontWeight="Bold" Content="Hasło:" HorizontalAlignment="Left" Margin="59,41,0,60" VerticalAlignment="Top" Width="280"/>
+        <Label Grid.Column="0" FontWeight="Bold" Content="Tekst:" HorizontalAlignment="Left" Margin="59,123,0,60" VerticalAlignment="Top" Width="280"/>
+        <Label Grid.Column="0" FontWeight="Bold" Content="Rezultat:" HorizontalAlignment="Left" Margin="59,261,0,60" VerticalAlignment="Top" Width="280"/>
+        <Rectangle Fill="CornflowerBlue" Grid.Column="1" Margin="0,0,0,17"/>
+        <PasswordBox Grid.Column="2" Name="passwordBoxFile" HorizontalAlignment="Left" Margin="59,72,0,0" VerticalAlignment="Top" Width="280" Height="22"/>
+        <Label Grid.Column="2" FontWeight="Bold" Content="Hasło:" HorizontalAlignment="Left" Margin="59,41,0,0" VerticalAlignment="Top" Width="280"/>
+        <TextBox Grid.Column="2" FontWeight="Bold" Name="inputFilePath" HorizontalAlignment="Left" Margin="59,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" Height="35"/>
+        <Label Grid.Column="2" FontWeight="Bold" Content="Plik wejściowy:" HorizontalAlignment="Left" Margin="59,123,0,0" VerticalAlignment="Top" Width="211"/>
+        <TextBox Grid.Column="2" FontWeight="Bold" Name="outputFilePath" HorizontalAlignment="Left" Margin="59,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" Height="35"/>
+        <Label Grid.Column="2" FontWeight="Bold" Content="Plik wyjściowy:" HorizontalAlignment="Left" Margin="59,261,0,0" VerticalAlignment="Top" Width="211"/>
+        <Button Grid.Column="2" Foreground="White" FontWeight="Bold" BorderThickness="0px" Padding="3px" Background="CornflowerBlue" Name="searchForInputFile" Content="Wyszukaj plik" HorizontalAlignment="Left" Margin="59,189,0,0" VerticalAlignment="Top" Width="280" Height="24" Click="searchForInputFilePath"/>
+        <Button Grid.Column="2" Foreground="White" FontWeight="Bold" BorderThickness="0px" Padding="3px" Background="CornflowerBlue" Name="searchForOutputFile" Content="Wyszukaj plik" HorizontalAlignment="Left" Margin="59,327,0,0" VerticalAlignment="Top" Width="280" Height="25" Click="searchForOutputFilePath"/>
+        <Button Grid.Column="2" Foreground="White" FontWeight="Bold" BorderThickness="0px" Padding="3px" Background="CornflowerBlue" Content="Zaszyfruj" HorizontalAlignment="Left" Margin="59,434,0,0" VerticalAlignment="Top" Width="130" Click="ZaszyfrujPlik">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Grid.Column="2" Foreground="White" FontWeight="Bold" BorderThickness="0px" Padding="3px" Background="CornflowerBlue" Content="Odszyfruj" HorizontalAlignment="Left" Margin="209,434,0,0" VerticalAlignment="Top" Width="130" Click="OdszyfrujPlik">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+    </Grid>
+</Window>
